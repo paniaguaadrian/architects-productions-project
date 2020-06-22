@@ -1,0 +1,43 @@
+/*  FONTS
+
+font-family: 'Raleway',
+sans-serif;
+font-family: 'Roboto',
+sans-serif;
+
+ ******************* */
+
+
+/* GENERAL */
+body {
+    background-color: white;
+
+}
+
+/* NAVIGATION VAR */
+
+.nav-containers {
+    background-color: black !important;
+    font-family: "Roboto",
+        sans-serif;
+    font-weight: 700;
+}
+
+.nav-texts {
+    color: #FFC926 !important;
+    font-family: 'Raleway',
+        sans-serif;
+    text-align: center;
+}
+
+a:hover {
+    color: #8b6c0e;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.nav-dropmenus {
+    background-color: black;
+    border: 1px solid;
+    border-color: #FFC926;
+}
