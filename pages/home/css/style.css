@@ -56,7 +56,7 @@ body {
       rgb(0, 0, 0),
       hsla(45, 100%, 57%, 0.514)
     ),
-    url("/pages/home/images/background-image-header.jpg");
+    url("../images/background-image-header.jpg");
   background-size: cover;
   background-position: center center;
   text-align: center;
