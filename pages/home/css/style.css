@@ -9,99 +9,97 @@ sans-serif;
 
 /* GENERAL */
 body {
-    background-color: white;
+  background-color: white;
 }
 
 /* NAVIGATION BAR */
 
 .nav-containers {
-    background-color: black !important;
-    font-family: "Roboto", sans-serif;
-    font-weight: 700;
+  background-color: black !important;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
 }
 
 .nav-texts {
-    color: #ffc926 !important;
-    font-family: "Raleway", sans-serif;
-    text-align: center;
+  color: #ffc926 !important;
+  font-family: "Raleway", sans-serif;
+  text-align: center;
 }
 
 .nav-dropmenus {
-    background-color: rgba(0, 0, 0, 0.863);
-    border: 2px solid;
-    border-color: #ffc92634;
+  background-color: rgba(0, 0, 0, 0.863);
+  border: 2px solid;
+  border-color: #ffc92634;
 }
 
 .dropdown-item:hover {
-    background-color: rgba(197, 197, 197, 0.151) !important;
+  background-color: rgba(197, 197, 197, 0.151) !important;
 }
 
 .socialmedia-nav {
-    text-align: center;
-
+  text-align: center;
 }
 
 .socialmedia-nav a {
-    padding-left: 20px;
+  padding-left: 20px;
 }
 
 .fab-icon {
-    color: white;
+  color: white;
 }
 
 /* HEADER SECTION */
 
 .jumbotron-header {
-    background-image: linear-gradient(to bottom,
-            rgb(0, 0, 0),
-            hsla(45, 100%, 57%, 0.514)),
-        url("/pages/home/background-image-header.jpg");
-    background-size: cover;
-    background-position: center center;
-    text-align: center;
-    text-align: center center;
-    padding: 8% 7% 7%;
-    margin-bottom: 0;
-
+  background-image: linear-gradient(
+      to bottom,
+      rgb(0, 0, 0),
+      hsla(45, 100%, 57%, 0.514)
+    ),
+    url("/pages/home/images/background-image-header.jpg");
+  background-size: cover;
+  background-position: center center;
+  text-align: center;
+  text-align: center center;
+  padding: 8% 7% 7%;
+  margin-bottom: 0;
 }
 
 .jumbotron-header h1 {
-    font-family: Roboto;
-    font-size: 3rem;
-    text-transform: uppercase;
-    color: white;
-    font-weight: bold;
+  font-family: Roboto;
+  font-size: 3rem;
+  text-transform: uppercase;
+  color: white;
+  font-weight: bold;
 }
 
 .jumbotron-header p {
-    font-family: "Raleway",
-        sans-serif;
-    font-size: 1rem;
-    font-weight: 400;
-    color: white;
-    line-height: 1.5;
+  font-family: "Raleway", sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  color: white;
+  line-height: 1.5;
 }
 
 .jumbotron-header a {
-    background-color: #ffc926;
-    color: black;
-    font-family: "Roboto",
-        sans-serif;
-    font-size: 1.5rem;
-    font-weight: bold;
-    margin-top: 5%;
+  background-color: #ffc926;
+  color: black;
+  font-family: "Roboto", sans-serif;
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-top: 5%;
 }
 
 /* OUR WORKS */
 
 .section-1 {
-    background-color: rgba(135, 69, 197, 0.753);
-    height: 40rem;
+  background-color: rgba(135, 69, 197, 0.753);
+  height: 40rem;
 }
 
 /* OUR PRODUCTS */
 
 .section-2 {
-    background-color: rgba(159, 197, 69, 0.753);
-    height: 40rem;
+  background-color: rgba(159, 197, 69, 0.753);
+  height: 40rem;
 }
