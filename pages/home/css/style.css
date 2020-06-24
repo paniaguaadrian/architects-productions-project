@@ -15,25 +15,26 @@ body {
 /* NAVIGATION BAR */
 
 .nav-containers {
-  background-color: black !important;
+  background-color: hsl(261, 71%, 36%) !important;
   font-family: "Roboto", sans-serif;
   font-weight: 700;
 }
 
 .nav-texts {
-  color: #ffc926 !important;
+  color: white !important;
   font-family: "Raleway", sans-serif;
   text-align: center;
 }
 
 .nav-dropmenus {
-  background-color: rgba(0, 0, 0, 0.863);
+  background-color: rgb(34, 32, 32);
   border: 2px solid;
-  border-color: #ffc92634;
+  border-color: white;
 }
 
 .dropdown-item:hover {
-  background-color: rgba(197, 197, 197, 0.151) !important;
+  background-color: hsl(188, 73%, 61%) !important;
+  color: black !important;
 }
 
 .socialmedia-nav {
@@ -51,11 +52,9 @@ body {
 /* HEADER SECTION */
 
 .jumbotron-header {
-  background-image: linear-gradient(
-      to bottom,
-      rgb(0, 0, 0),
-      hsla(45, 100%, 57%, 0.514)
-    ),
+  background-image: linear-gradient(to bottom,
+      hsl(261, 71%, 36%),
+      hsla(188, 83%, 57%, 0.9)),
     url("../images/background-image-header.jpg");
   background-size: cover;
   background-position: center center;
@@ -65,12 +64,16 @@ body {
   margin-bottom: 0;
 }
 
+
+
 .jumbotron-header h1 {
   font-family: Roboto;
   font-size: 3rem;
   text-transform: uppercase;
   color: white;
   font-weight: bold;
+
+
 }
 
 .jumbotron-header p {
@@ -82,24 +85,43 @@ body {
 }
 
 .jumbotron-header a {
-  background-color: #ffc926;
-  color: black;
+  background-color: rgba(0, 0, 0, 0.377);
   font-family: "Roboto", sans-serif;
   font-size: 1.5rem;
   font-weight: bold;
   margin-top: 5%;
+  border-radius: 15px;
+
+}
+
+.jumbotron-header a:hover {
+  background-color: hsla(260, 84%, 27%, 0.801);
+  color: white;
+}
+
+hr {
+  margin-top: 0;
+  margin-bottom: 0;
+  border: 0;
+  border: 2px white solid;
 }
 
 /* OUR WORKS */
 
 .section-1 {
-  background-color: rgba(135, 69, 197, 0.753);
-  height: 40rem;
+  background-color: hsl(188, 83%, 57%);
+  height: 40em;
 }
 
 /* OUR PRODUCTS */
 
 .section-2 {
-  background-color: rgba(159, 197, 69, 0.753);
+  background-color: rgb(240, 240, 240);
   height: 40rem;
+}
+
+/* FOOTER SECTION */
+
+.call-to-action h6 {
+  color: white !important;
 }
