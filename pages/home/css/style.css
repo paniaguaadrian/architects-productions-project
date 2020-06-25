@@ -15,15 +15,14 @@ body {
 /* NAVIGATION BAR */
 
 .nav-containers {
-  background-color: hsl(261, 71%, 36%) !important;
+  background-color: hsl(261, 71%, 36%);
   font-family: "Roboto", sans-serif;
   font-weight: 700;
 }
 
 .nav-text-brand {
   color: rgb(255, 255, 255) !important;
-  font-family: "Raleway",
-    sans-serif;
+  font-family: "Raleway", sans-serif;
   text-align: center;
 }
 
@@ -35,8 +34,7 @@ body {
 
 .nav-texts:hover {
   color: rgb(255, 255, 255) !important;
-  font-family: "Raleway",
-    sans-serif;
+  font-family: "Raleway", sans-serif;
   text-align: center;
 }
 
@@ -66,22 +64,21 @@ body {
   color: hsl(188, 73%, 61%) !important;
 }
 
-
-
 /* HEADER SECTION */
 
 .jumbotron-header {
-  background-image: linear-gradient(to bottom,
+  background-image: linear-gradient(
+      to bottom,
       hsl(261, 71%, 36%),
-      hsla(188, 83%, 57%, 0.9)),
+      hsla(188, 83%, 57%, 0.9)
+    ),
     url("../images/background-image-header.jpg");
   background-size: cover;
   background-position: center center;
-  text-align: center;
-  text-align: center center;
-  padding: 8% 7% 7%;
+  text-align: left;
+  padding: 8% 5% 7%;
   margin-bottom: 0;
-  height: 35rem !important;
+  height: 35rem;
 }
 
 .jumbotron-header h1 {
@@ -90,8 +87,6 @@ body {
   text-transform: uppercase;
   color: white;
   font-weight: bold;
-
-
 }
 
 .jumbotron-header p {
@@ -99,7 +94,8 @@ body {
   font-size: 1rem;
   font-weight: 400;
   color: white;
-  line-height: 1.5;
+  line-height: 1.75;
+  text-align: justify;
 }
 
 /* .jumbotron-header a {
@@ -119,7 +115,7 @@ body {
   color: white;
 } */
 
-hr {
+.hr-header {
   margin-top: 0;
   margin-bottom: 0;
   background-color: hsl(261, 71%, 36%);
@@ -128,12 +124,11 @@ hr {
   height: 3px;
 }
 
-
 /* OUR WORKS */
 
 .section-1 {
   background-color: hsl(188, 83%, 57%);
-  height: 40em;
+  height: 40rem;
 }
 
 /* OUR PRODUCTS */
