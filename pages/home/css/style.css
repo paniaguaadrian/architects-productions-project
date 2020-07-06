@@ -1,11 +1,9 @@
-/* colors: https: //www.freepik.es/vector-premium/plantilla-logotipo-musica-degradado_5385449.htm */
-
 /*  FONTS
 font-family: 'Raleway',
 sans-serif;
 font-family: 'Roboto',
 sans-serif;
- ******************* */
+ ------------------------------------------------ */
 
 
 
@@ -37,24 +35,6 @@ body {
   box-shadow: 0px -30px 20px 67px rgba(0, 0, 0, 0.75);
 
 }
-
-/* 
-.logo-nav {
-  padding: auto auto auto 50px !important;
-
-}
-
-.logo-img {
-  height: 100px;
-  width: 100px;
-
-} */
-
-/* .nav-text-brand {
-  color: black !important;
-  font-family: "Raleway", sans-serif;
-  text-align: center;
-} */
 
 
 .nav-texts {
@@ -103,32 +83,17 @@ body {
 /* HEADER SECTION 
 -------------------------------------------------- */
 
-/* .header-row {
-  background-image: linear-gradient(to bottom,
-      hsl(261, 71%, 36%),
-      hsla(188, 83%, 57%, 0.9));
-  background-size: cover;
-  background-position: center center;
-  padding-bottom: 20px;
-  text-align: center;
-} */
-
 .jumbotron-header {
   text-align: left;
   margin-top: 50px;
   margin-bottom: 0;
   height: 55rem;
   background-image: linear-gradient(0.00turn, hsla(0, 0%, 100%, 0.616), hsla(266, 81%, 35%, 0.404)),
-    url(/pages/home/images/header-background.jpg);
+    url(../images/header-background.jpg);
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
 }
-
-/* .container-text {
-  background-color: rgba(255, 255, 255, 0.589);
-  margin-top: 20px;
-} */
 
 .jumbotron-header h1 {
   font-family: Roboto;
@@ -158,49 +123,6 @@ body {
   margin-top: 50px;
 }
 
-
-/* .header-image {
-  width: 50%;
-  text-align: center;
-
-} */
-
-/* .jumbotron-header a {
-  background-color: white;
-  color: black;
-  font-family: "Roboto", sans-serif;
-  font-size: 1.5rem;
-  font-weight: bold;
-  margin-top: 5%;
-  border-radius: 15px;
-  border-color: none transparent !important;
-
-}
-
-.jumbotron-header a:hover {
-  background-color: hsla(260, 84%, 27%, 0.801);
-  color: white;
-} */
-
-/* .hr-header {
-  margin-top: 0;
-  margin-bottom: 0;
-  background-color: black;
-  background-image: linear-gradient(150deg, black, transparent);
-  border: 0;
-  height: 3px;
-} */
-
-/* OUR WORKS */
-
-/* .section-1 {
-  background-color: white;
-  height: 55rem;
-  padding-top: 10%;
-  padding-left: 50px;
-
-} */
-
 /* Quienes somos 
 -------------------------------------------------- */
 
@@ -221,14 +143,18 @@ body {
 
 .card-group {
   width: 100%;
-
-
+  padding: 10px 20px;
+  margin: 20px 10px;
 
 }
 
-.card {}
-
 .card {
+  padding: 10px 20px;
+  margin: 0 10px;
+  border: 2px solid hsl(266, 81%, 35%);
+}
+
+.card-img-top {
 
   filter: grayscale(100%) blur(1px);
 
@@ -258,14 +184,14 @@ body {
   }
 }
 
-.card:hover {
+.card-img-top:hover {
   filter: none;
   animation-name: cardAnimation;
   animation-duration: 1s;
 
 }
 
-.card:hover:after {
+.card-img-top:hover:after {
   filter: grayscale(100%) blur(1px);
   animation-name: cardAnimation2;
   animation-duration: 1s;
@@ -290,10 +216,9 @@ body {
 
 .featurette-divider {
   margin: 5rem 0;
-  /* Space out the Bootstrap <hr> more */
+
 }
 
-/* Thin out the marketing headings */
 .featurette-heading {
   font-weight: 300;
   line-height: 1;
