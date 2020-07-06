@@ -16,6 +16,7 @@ sans-serif;
 
 body {
   background-color: white;
+
 }
 
 /* NAVIGATION BAR 
@@ -36,6 +37,15 @@ body {
 
 }
 
+.navbar-brand {
+  color: #05dfd7 !important;
+  transition: background-size .2s ease color 0.7s ease infinite;
+}
+
+.navbar-brand:hover {
+  color: #ffffff !important;
+  transition-duration: .5s;
+}
 
 .nav-texts {
   color: white !important;
@@ -88,7 +98,7 @@ body {
   margin-top: 50px;
   margin-bottom: 0;
   height: 55rem;
-  background-image: linear-gradient(0.00turn, hsla(0, 0%, 100%, 0.616), hsla(266, 81%, 35%, 0.404)),
+  background-image: linear-gradient(0.00turn, hsla(0, 0%, 0%, 0.719), hsla(266, 81%, 35%, 0.623)),
     url(../images/header-background.jpg);
   background-size: cover;
   background-position: center center;
@@ -109,18 +119,38 @@ body {
   font-family: Roboto;
   font-size: 5rem;
   text-transform: uppercase;
-  color: hsl(266, 81%, 35%);
+  color: #05dfd7;
   font-weight: bold;
 }
 
 .jumbotron-header p {
   font-family: "Raleway", sans-serif;
-  font-size: 1rem;
+  font-size: 1.5rem;
   font-weight: bold;
-  color: rgb(0, 0, 0);
+  color: #f8f8f8;
   line-height: 1.75;
   text-align: left;
   margin-top: 50px;
+}
+
+.callToAction {
+  text-align: center !important;
+  align-items: center;
+}
+
+.callToAction p {
+  text-align: center !important;
+  align-items: center;
+}
+
+.buttonContact {
+  color: white;
+  background-color: hsl(266, 81%, 35%);
+}
+
+.buttonContact:hover {
+  color: white;
+  background-color: hsl(266, 84%, 20%);
 }
 
 /* Quienes somos 
@@ -155,8 +185,7 @@ body {
 }
 
 .card-img-top {
-
-  filter: grayscale(100%) blur(1px);
+  filter: grayscale(0%) blur(0px);
 
 }
 
@@ -191,12 +220,6 @@ body {
 
 }
 
-.card-img-top:hover:after {
-  filter: grayscale(100%) blur(1px);
-  animation-name: cardAnimation2;
-  animation-duration: 1s;
-
-}
 
 /* Nuestros productos  
 -------------------------------------------------- */
