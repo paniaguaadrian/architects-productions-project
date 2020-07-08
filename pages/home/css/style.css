@@ -13,7 +13,7 @@ sans-serif;
 }
 
 body {
-  background-color: white;
+  background-color: black;
 }
 
 /* NAVIGATION BAR 
@@ -127,6 +127,7 @@ body {
 .callToAction {
   text-align: center !important;
   align-items: center;
+  margin: 50px 0;
 }
 
 .callToAction p {
@@ -146,6 +147,10 @@ body {
 
 /* Quienes somos 
 -------------------------------------------------- */
+
+#somos {
+  background-color: white;
+}
 
 .title-container {
   padding: 50px 10px;
@@ -181,6 +186,24 @@ body {
 
 .card-img-top:hover {
   filter: grayscale(0%);
+}
+
+.button-container {
+  text-align: center;
+  padding: 50px 0;
+  background-color: white;
+}
+
+.buttonSomos {
+  color: black;
+  background-color: white;
+  transition: .5s;
+
+}
+
+.buttonSomos:hover {
+  color: black;
+  background-color: hsla(265, 60%, 81%, 0.904);
 }
 
 
@@ -226,6 +249,10 @@ body {
 
 /* FOOTER SECTION 
 -------------------------------------------------- */
+
+#footer {
+  background-color: white;
+}
 
 .call-to-action h6 {
   color: white !important;
