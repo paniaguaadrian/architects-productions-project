@@ -160,8 +160,8 @@ body {
 .callToAction p {
   font-family: 'Quicksand',
     sans-serif;
-  font-weight: light;
-  text-align: center !important;
+  font-weight: 700;
+  text-align: center;
   align-items: center;
 
 }
@@ -169,7 +169,7 @@ body {
 .buttonContact {
   font-family: 'Quicksand',
     sans-serif;
-  font-weight: light;
+  font-weight: bold;
   color: white;
   background-color: hsl(266, 81%, 35%);
   border-color: white;
@@ -179,7 +179,7 @@ body {
 .buttonContact:hover {
   font-family: 'Quicksand',
     sans-serif;
-  font-weight: light;
+  font-weight: bold;
   color: white;
   background-color: hsl(266, 84%, 20%);
   border-color: rgba(255, 255, 255, 0.432);
